@@ -1,0 +1,76 @@
+body {
+	background-color:rgba(227, 216, 206, 1.00)
+
+	
+}
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;
+	color:#26685c ;
+}
+h1{ 
+	font-size: 40px
+
+ }
+ h2, h3, h4{
+ 	font-size: 25px
+ }
+p{
+	font-family: 'Lora', serif;
+	color:#366996;
+	font-size: 15px
+}
+#shiro{
+	height: 200px;
+	width: 200px;
+	object-fit : cover;
+	border-radius: 50%;
+	box-shadow: 0 15px 35px rgba(188, 177, 168, 1.00);
+}
+.card-shiro{
+
+	width: 60%;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	padding : 15px 30px;
+	
+}
+.card{
+	/*border : 2px solid rgba(208, 194, 182, 1.00);*/
+	width: 60%;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	padding : 15px 30px;
+	box-shadow: 0 15px 35px rgba(188, 177, 168, 1.00);
+	border-radius: 30px;
+	background-color: rgba(227, 216, 206, 1.00)
+}
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+/* a revoir le @media ou l'autre solution en video*/
+
+@media(max-width: 760px){
+	.container{
+	width: 600px
+	}
+}
+@media(max-width: 500px){
+	.container{
+	width: 400px
+	}
+}
+@media(max-width: 300px){
+	.container{
+	width: 200px
+	}
+}	
+.social a{
+	color:rgba(227, 216, 206, 1.00);
+}
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
